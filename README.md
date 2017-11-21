@@ -1,2 +1,2 @@
 # scheduled-macos-updates
-Script to fetch &amp; update macOS software using lauchd.
+Script to fetch &amp; update macOS software using launchd.
