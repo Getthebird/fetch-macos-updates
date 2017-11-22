@@ -6,7 +6,7 @@
 		<string>com.kool.updatesoftware</string>
 	<key>ProgramArguments</key>
 		<array>
-			<string>/Library/Scripts/UpdateSoftware.sh</string>
+			<string>/Library/Scripts/FetchSoftware.sh</string>
 		</array>
 	<key>RunAtLoad</key>
 		<true/>
