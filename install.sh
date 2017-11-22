@@ -1,6 +1,8 @@
 #!/bin/sh
 
-echo 'Installing scripts'
+echo 'Starting Install'
+sudo cd ./
+echo 'Copying files'
 sudo cp com.kool.updatesoftware.plist /Library/LaunchAgents/
 sudo cp FetchSoftware.sh /Library/Scripts/
 echo 'Done'
