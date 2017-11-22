@@ -3,11 +3,11 @@
 echo 'Starting Install'
 sudo cd ./
 echo 'Copying files'
-sudo cp com.kool.updatesoftware.plist /Library/LaunchAgents/
+sudo cp com.kool.fetchsoftware.plist /Library/LaunchAgents/
 sudo cp FetchSoftware.sh /Library/Scripts/
 echo 'Done'
-echo 'Making files executable'
-sudo chown root:wheel /Library/LaunchAgents/com.kool.updatesoftware.plist
+echo 'Set ownership & make script executable'
+sudo chown root:wheel /Library/LaunchAgents/com.kool.fetchsoftware.plist
 sudo chown root:wheel /Library/Scripts/FetchSoftware.sh
 sudo chmod +x /Library/Scripts/FetchSoftware.sh
 echo 'Done'
