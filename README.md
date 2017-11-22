@@ -13,4 +13,4 @@ How to install
 
 How it works
 ------------
-On every boot launchd will invoke the FetchSoftware.sh script. FetchSoftware.sh will verify if the current time is between midnight and 5am, if so available software updates are downloaded. Afterwards the computer is powered off. You can now install updates whenever your ready.
+On every boot launchd will invoke the FetchSoftware.sh script. FetchSoftware.sh will verify if the current time is between midnight and 5am, if so available software updates are downloaded. Afterwards the computer is powered off. You can now install the updates whenever your ready.
